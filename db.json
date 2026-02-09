@@ -1,0 +1,191 @@
+{
+  "languages": [
+    {
+      "id": "en",
+      "name": "English",
+      "code": "en"
+    },
+    {
+      "id": "ar",
+      "name": "Arabic",
+      "code": "ar"
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "code": "fr"
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "code": "es"
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "code": "de"
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "code": "it"
+    },
+    {
+      "id": "pt",
+      "name": "Portuguese",
+      "code": "pt"
+    },
+    {
+      "id": "zh",
+      "name": "Chinese",
+      "code": "zh"
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "code": "ja"
+    },
+    {
+      "id": "ko",
+      "name": "Korean",
+      "code": "ko"
+    }
+  ],
+  "voices": [
+    {
+      "id": "alloy",
+      "name": "Alloy",
+      "tag": "Premium",
+      "language": "en"
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "tag": "Standard",
+      "language": "en"
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "tag": "Premium",
+      "language": "en"
+    },
+    {
+      "id": "onyx",
+      "name": "Onyx",
+      "tag": "Standard",
+      "language": "en"
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "tag": "Premium",
+      "language": "en"
+    },
+    {
+      "id": "shimmer",
+      "name": "Shimmer",
+      "tag": "Standard",
+      "language": "en"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "default",
+      "name": "Default Prompt",
+      "description": "General-purpose prompt"
+    },
+    {
+      "id": "sales",
+      "name": "Sales Prompt",
+      "description": "Optimized for sales"
+    },
+    {
+      "id": "support",
+      "name": "Support Prompt",
+      "description": "Optimized for support"
+    },
+    {
+      "id": "custom",
+      "name": "Custom Prompt",
+      "description": "Build your own"
+    }
+  ],
+  "models": [
+    {
+      "id": "pro",
+      "name": "Pro",
+      "description": "Highest quality, lowest latency"
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "description": "Balanced quality and cost"
+    },
+    {
+      "id": "flex",
+      "name": "Flex",
+      "description": "Cost-effective for high volume"
+    }
+  ],
+  "agents": [
+    {
+      "name": "amr",
+      "description": "asdad",
+      "callType": "outbound",
+      "language": "en",
+      "voice": "echo",
+      "prompt": "sales",
+      "model": "pro",
+      "latency": 0.5,
+      "speed": 110,
+      "callScript": "",
+      "serviceDescription": "",
+      "attachments": [],
+      "tools": {
+        "allowHangUp": false,
+        "allowCallback": false,
+        "liveTransfer": true
+      },
+      "id": 1
+    },
+    {
+      "name": "Amr",
+      "description": "ssss",
+      "callType": "outbound",
+      "language": "en",
+      "voice": "echo",
+      "prompt": "default",
+      "model": "standard",
+      "latency": 0.5,
+      "speed": 115,
+      "callScript": "vvvvvvvvvvv",
+      "serviceDescription": "qaaaaaaaaaaaaa",
+      "attachments": [
+        2
+      ],
+      "tools": {
+        "allowHangUp": true,
+        "allowCallback": true,
+        "liveTransfer": true
+      },
+      "id": 2
+    }
+  ],
+  "attachments": [
+    {
+      "key": "5665e25c-8c2a-42d1-996e-6b0b3a459dcf",
+      "fileName": "10-homework-status.csv",
+      "fileSize": 329,
+      "mimeType": "text/csv",
+      "id": 1
+    },
+    {
+      "key": "0f3875eb-7c13-4ac9-8014-277b93536145",
+      "fileName": "11-lesson-expenses.csv",
+      "fileSize": 428,
+      "mimeType": "text/csv",
+      "id": 2
+    }
+  ]
+}

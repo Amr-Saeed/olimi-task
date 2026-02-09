@@ -1,0 +1,9 @@
+{
+  "/api/languages": "/languages",
+  "/api/voices": "/voices",
+  "/api/prompts": "/prompts",
+  "/api/models": "/models",
+  "/api/agents": "/agents",
+  "/api/agents/:id": "/agents/:id",
+  "/api/attachments": "/attachments"
+}
